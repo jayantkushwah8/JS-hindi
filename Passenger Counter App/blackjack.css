@@ -1,0 +1,23 @@
+button{
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    padding: 5px 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 4px;
+    margin- top: 4px;
+    display: block;
+}
+
+body{
+    position: relative;
+    left:40%;
+    background-color: #016f32;
+    
+}
+
+h1{
+    color: orange;
+}
