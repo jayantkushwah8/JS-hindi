@@ -1,3 +1,40 @@
+// const form = document.querySelector('.form');
+// const randomNumber = Math.floor(Math.random() * 100) + 1;
+// const lowHigh = document.querySelector('.lowOrHi');
+// const guesses = document.querySelector('.guesses');
+// const lastResult = document.querySelector('.lastResult');
+
+// form.addEventListener('submit', function(event) {
+//     event.preventDefault();
+
+//     if (lastResult.innerHTML == 0 ) {
+//         return lowHigh.innerHTML =  `You lost.Please try again.`;
+//     }
+
+//     const guessField = parseInt(document.querySelector(".guessField").value);
+//     if (guessField === "" || guessField <= 0 || guessField >= 101 || isNaN(guessField)) {
+//         lowHigh.innerHTML =  `Please enter a valid number : ${guessField}`
+//         guesses.innerHTML += `${guessField}-`
+//         lastResult.innerHTML = lastResult.innerHTML - 1;
+
+//     }else  if (randomNumber > guessField) {
+//         lowHigh.innerHTML = `${guessField} is too low.`
+//         guesses.innerHTML += `${guessField}-`
+//         lastResult.innerHTML = lastResult.innerHTML - 1;
+
+//     } else if (randomNumber < guessField) {
+//         lowHigh.innerHTML = `${guessField} is too high.`
+//         guesses.innerHTML += `${guessField}-`
+//         lastResult.innerHTML = lastResult.innerHTML - 1;
+
+//     }else{
+//         guesses.innerHTML += `${guessField}-`
+//         lastResult.innerHTML = lastResult.innerHTML - 1;
+//         return lowHigh.innerHTML = `${guessField} is correct. You Won.`;    
+//     }
+
+// });
+
 
 let randomNumber = parseInt(Math.random() * 100 + 1);
 
